@@ -5,7 +5,7 @@ using namespace std;
 int N, K;
 char S[10000];
 
-void _main(int TEST)
+void flip()
 {
     scanf("%s%d", S, &K);
     N=strlen(S);
@@ -35,7 +35,7 @@ int main()
     {
         //cerr << i << endl;
         printf("Case #%d: ", i);
-        _main(i);
+        flip();
     }
     return 0;
 }
